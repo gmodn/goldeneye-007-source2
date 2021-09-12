@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"Hand_is_unused.vmt"
+	"file"	"Sleve_is_unused.vmt"
+	"file"	"PP7_Tex_is_unused.vmt"
+}
