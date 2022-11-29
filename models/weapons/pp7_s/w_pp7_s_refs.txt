@@ -1,4 +1,0 @@
-importfilelist
-{
-	"file"	"v_pp7_is_unused.vmt"
-}
