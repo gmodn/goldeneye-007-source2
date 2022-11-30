@@ -1,0 +1,227 @@
+<!-- KV3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_automatic_shotgun"
+						filename = "models/weapons/autosg/v_autosg/v_automatic_shotgun.dmx"
+						import_scale = 1.0
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_automatic_shotgun_shell1"
+						filename = "models/weapons/autosg/v_autosg/v_automatic_shotgun_shell1.dmx"
+						import_scale = 1.0
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_automatic_shotgun_shell2"
+						filename = "models/weapons/autosg/v_autosg/v_automatic_shotgun_shell2.dmx"
+						import_scale = 1.0
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_automatic_shotgun_shell3"
+						filename = "models/weapons/autosg/v_autosg/v_automatic_shotgun_shell3.dmx"
+						import_scale = 1.0
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_automatic_shotgun_shell4"
+						filename = "models/weapons/autosg/v_autosg/v_automatic_shotgun_shell4.dmx"
+						import_scale = 1.0
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_automatic_shotgun_shell5"
+						filename = "models/weapons/autosg/v_autosg/v_automatic_shotgun_shell5.dmx"
+						import_scale = 1.0
+					}
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "EmptyAnim"
+						activity_name = ""
+						activity_weight = 1
+						anim_markup_ordered = false
+						delta = false
+						disable_compression = false
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						frame_count = 1
+						frame_rate = 30
+						hidden = false
+						looping = false
+						name = "ref"
+						weight_list_name = ""
+						worldSpace = false
+					}
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_automatic_shotgun"
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "studio"
+					},
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_automatic_shotgun_shell1"
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "shell1"
+					},
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_automatic_shotgun_shell2"
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "shell2"
+					},
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_automatic_shotgun_shell3"
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "shell3"
+					},
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_automatic_shotgun_shell4"
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "shell4"
+					},
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_automatic_shotgun_shell5"
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "shell5"
+					}
+				]
+			},
+			{
+				_class = "JiggleBoneList"
+				children = 
+				[
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						name = "skin_0"
+						remaps = 
+						[
+						]
+					}
+				]
+			},
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			}
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
