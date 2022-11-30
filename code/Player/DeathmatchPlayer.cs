@@ -64,6 +64,7 @@
 		var ply = ConsoleSystem.Caller.Pawn as DeathmatchPlayer;
 
 		ply.GiveAmmo( AmmoType.Pistol, 1000 );
+		ply.GiveAmmo( AmmoType.GoldPistol, 1000 );
 		ply.GiveAmmo( AmmoType.Python, 1000 );
 		ply.GiveAmmo( AmmoType.Buckshot, 1000 );
 		ply.GiveAmmo( AmmoType.Crossbow, 1000 );
@@ -71,6 +72,7 @@
 		ply.GiveAmmo( AmmoType.Tripmine, 1000 );
 
 		ply.Inventory.Add( new Python() );
+		ply.Inventory.Add( new GoldPistol());
 		ply.Inventory.Add( new Shotgun() );
 		ply.Inventory.Add( new SMG() );
 		ply.Inventory.Add( new Crossbow() );

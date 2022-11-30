@@ -28,20 +28,20 @@
 	</ItemGroup>
 
   <PropertyGroup>
-	<OutputPath>E:\Steam\steamapps\common\sbox/.vs/output/</OutputPath>
-	<DocumentationFile>E:\Steam\steamapps\common\sbox/.vs/output/goldeneye-007-source2.xml</DocumentationFile>
+	<OutputPath>..\..\../.vs/output/</OutputPath>
+	<DocumentationFile>..\..\../.vs/output/goldeneye-007-source2.xml</DocumentationFile>
 	<RootNamespace>Sandbox</RootNamespace>
 	<Nullable>disable</Nullable>
   </PropertyGroup>
 
 	<ItemGroup>
-		<Analyzer Include="E:\Steam\steamapps\common\sbox\bin\managed\Sandbox.Generator.dll"/>
-		<Reference Include="E:\Steam\steamapps\common\sbox\bin\managed/Sandbox.System.dll" />
-		<Reference Include="E:\Steam\steamapps\common\sbox\bin\managed/Sandbox.Engine.dll" />
-		<Reference Include="E:\Steam\steamapps\common\sbox\bin\managed/Sandbox.Game.dll" />
-		<Reference Include="E:\Steam\steamapps\common\sbox\bin\managed/Sandbox.Event.dll" />
-		<Reference Include="E:\Steam\steamapps\common\sbox\bin\managed/Sandbox.Bind.dll" />
-		<Reference Include="E:\Steam\steamapps\common\sbox\bin\managed/Sandbox.Reflection.dll" />
+		<Analyzer Include="..\..\..\bin\managed\Sandbox.Generator.dll"/>
+		<Reference Include="..\..\..\bin\managed/Sandbox.System.dll" />
+		<Reference Include="..\..\..\bin\managed/Sandbox.Engine.dll" />
+		<Reference Include="..\..\..\bin\managed/Sandbox.Game.dll" />
+		<Reference Include="..\..\..\bin\managed/Sandbox.Event.dll" />
+		<Reference Include="..\..\..\bin\managed/Sandbox.Bind.dll" />
+		<Reference Include="..\..\..\bin\managed/Sandbox.Reflection.dll" />
 	</ItemGroup>
 
   <ItemGroup>
