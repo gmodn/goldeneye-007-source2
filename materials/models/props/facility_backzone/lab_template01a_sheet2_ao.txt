@@ -1,0 +1,4 @@
+"settings"
+{
+	"brightness"	6.0
+}
