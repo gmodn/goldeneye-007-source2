@@ -1,0 +1,129 @@
+<!-- KV3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "bookset02"
+						filename = "models/props/basement/bookset02/bookset02.dmx"
+						import_scale = 1.0
+					}
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "EmptyAnim"
+						activity_name = ""
+						activity_weight = 1
+						anim_markup_ordered = false
+						delta = false
+						disable_compression = false
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						frame_count = 1
+						frame_rate = 30
+						hidden = false
+						looping = false
+						name = "ref"
+						weight_list_name = ""
+						worldSpace = false
+					}
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"bookset02"
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "bookset02"
+					}
+				]
+			},
+			{
+				_class = "JiggleBoneList"
+				children = 
+				[
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						name = "skin_0"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/basement/bookset02.vmat"
+								to = "materials/models/props/basement/bookset02.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_1"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/basement/bookset02.vmat"
+								to = "materials/models/props/basement/bookset02_skin2.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_2"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/basement/bookset02.vmat"
+								to = "materials/models/props/basement/bookset02_skin3.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_3"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/basement/bookset02.vmat"
+								to = "materials/models/props/basement/bookset02_skin4.vmat"
+							}
+						]
+					}
+				]
+			},
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			}
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
