@@ -1,4 +1,15 @@
 {
-	"sharedassets": "*.*",
-	"ident": "gmodn.goldeneyesource2"
+  "Title": "Goldeneye 007 Source 2",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "goldeneye-007-source2",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": "code",
+  "RootNamespace": null,
+  "Metadata": {}
 }

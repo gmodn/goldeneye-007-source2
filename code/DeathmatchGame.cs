@@ -99,19 +99,20 @@ partial class DeathmatchGame : Game
 	{
 		base.FrameSimulate( cl );
 
-		\var postProcess = Map.Camera.FindOrCreateHook<Sandbox.Effects.ScreenEffects>();
+		var postProcess = Map.Camera.FindOrCreateHook<Sandbox.Effects.ScreenEffects>();
 
-		postProcess.Sharpen = 0.5f;
+    //  I've disabled this for now and removed / by var above as it was causing compile errors - PatrickJr.
+	//	postProcess.Sharpen = 0.5f;
 
-		postProcess.FilmGrain.Intensity = 0.2f;
-		postProcess.FilmGrain.Response = 1;
+	//	postProcess.FilmGrain.Intensity = 0.2f;
+	//	postProcess.FilmGrain.Response = 1;
 
-		postProcess.Vignette.Intensity = 1.0f;
-		postProcess.Vignette.Roundness = 1.5f;
-		postProcess.Vignette.Smoothness = 0.5f;
-		postProcess.Vignette.Color = Color.Black;
+	//	postProcess.Vignette.Intensity = 1.0f;
+	//	postProcess.Vignette.Roundness = 1.5f;
+	//	postProcess.Vignette.Smoothness = 0.5f;
+	//	postProcess.Vignette.Color = Color.Black;
 
-		postProcess.Saturation = 1;
+	//	postProcess.Saturation = 1;
 
 		postProcess.MotionBlur.Scale = 0;
 
