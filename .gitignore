@@ -1,4 +1,3 @@
-
 .codegen/
 obj/
 code/accesslist.txt
@@ -17,3 +16,4 @@ code/dm98.csproj
 *.sound_c
 *.vsnd_c
 *.vpcf_c
+removecompiled.bat
