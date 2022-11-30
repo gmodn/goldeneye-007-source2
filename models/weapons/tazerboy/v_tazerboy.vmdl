@@ -1,0 +1,129 @@
+<!-- KV3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_tazerboy_ref"
+						filename = "models/weapons/tazerboy/v_tazerboy/v_tazerboy_ref.dmx"
+						import_scale = 1.0
+					}
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "EmptyAnim"
+						activity_name = ""
+						activity_weight = 1
+						anim_markup_ordered = false
+						delta = false
+						disable_compression = false
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						frame_count = 1
+						frame_rate = 30
+						hidden = false
+						looping = false
+						name = "ref"
+						weight_list_name = ""
+						worldSpace = false
+					}
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_tazerboy_ref"
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "tazerboy"
+					}
+				]
+			},
+			{
+				_class = "JiggleBoneList"
+				children = 
+				[
+					{
+						_class = "JiggleBone"
+						name = "ValveBiped.taserboy_lanyard2_jiggle"
+						jiggle_root_bone = "ValveBiped.taserboy_lanyard2"
+						jiggle_type = 1
+						length = 15.0
+						tip_mass = 0.0
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = false
+						allow_flex_length   = true
+						invert_axes = true
+						angle_limit = 0.0
+						max_yaw = 0.785398
+						min_yaw = -0.785398
+						yaw_bounce = 0.0
+						yaw_damping = 1.0
+						yaw_stiffness = 100.0
+						yaw_friction = 10
+						max_pitch = 0.785398
+						min_pitch = -0.785398
+						pitch_bounce = 10
+						pitch_damping = 1.0
+						pitch_stiffness = 100.0
+						pitch_friction = 10
+						base_left_max = 0.0
+						base_left_min = 100.0
+						base_left_friction = -100.0
+						base_up_max = 0.0
+						base_up_min = 100.0
+						base_up_friction = -100.0
+						base_forward_max = 100.0
+						base_forward_min = 100.0
+						base_forward_friction = -100.0
+						along_stiffness = 10.0
+						along_damping = 15
+					}
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						name = "skin_0"
+						remaps = 
+						[
+						]
+					}
+				]
+			},
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			}
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

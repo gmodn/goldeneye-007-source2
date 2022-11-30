@@ -1,0 +1,446 @@
+<!-- KV3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_flagtoken"
+						filename = "models/weapons/tokens/v_flagtoken/v_flagtoken.dmx"
+						import_scale = 1.0
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_flagtoken_hand"
+						filename = "models/weapons/tokens/v_flagtoken/v_flagtoken_hand.dmx"
+						import_scale = 1.0
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_flagtoken_arm"
+						filename = "models/weapons/tokens/v_flagtoken/v_flagtoken_arm.dmx"
+						import_scale = 1.0
+					}
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "EmptyAnim"
+						activity_name = ""
+						activity_weight = 1
+						anim_markup_ordered = false
+						delta = false
+						disable_compression = false
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						frame_count = 1
+						frame_rate = 30
+						hidden = false
+						looping = false
+						name = "ref"
+						weight_list_name = ""
+						worldSpace = false
+					}
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_flagtoken"
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "studio"
+					},
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_flagtoken_hand"
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "studio"
+					},
+					{
+						_class = "BodyGroup"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"v_flagtoken_arm"
+								]
+							}
+						]
+						hidden_in_tools = false
+						name = "studio"
+					}
+				]
+			},
+			{
+				_class = "JiggleBoneList"
+				children = 
+				[
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						name = "skin_0"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_1"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_mi6.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_2"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_janus.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_3"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_one.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_4"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_two.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_5"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_three.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_6"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_four.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_7"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_five.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_8"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_race.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_9"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_blue.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_10"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_green.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_11"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_mag.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_12"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_red.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_13"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_yellow.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_14"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_sov.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_15"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_bur.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_16"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_uk.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_17"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_azr.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_18"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_usa.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_19"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_can.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_20"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_aus.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_21"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_den.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_22"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_fra.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_23"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_ger.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_24"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_gym.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_25"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_ire.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_26"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_ita.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_27"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_nl.vmat"
+							}
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin_28"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/w_models/w_token/flag_white.vmat"
+								to = "materials/models/weapons/w_models/w_token/flag_swe.vmat"
+							}
+						]
+					}
+				]
+			},
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			}
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

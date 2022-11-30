@@ -1,0 +1,85 @@
+particles_manifest
+{
+	"file"		"particles/error.pcf"
+	"file"		"particles/antlion_blood.pcf"
+	"file"		"particles/blood_impact.pcf"
+	"file"		"particles/water_impact.pcf"
+	"file"		"particles/fire_01.pcf"
+	"file"		"particles/burning_fx.pcf"
+	"file"		"particles/combineball.pcf"
+	"file"		"particles/vortigaunt_fx.pcf"
+	"file"		"particles/rocket_fx.pcf"
+	"file"		"particles/impact_fx.pcf"
+	"file"		"particles/ge_impact_fx.pcf"
+	"file"		"particles/ge_muzzle_fx.pcf"
+	"file"		"particles/ge_explosion_fx.pcf"
+	"file"		"particles/ge_environment_fx.pcf"
+	"file"		"particles/ge_screenspace_fx.pcf"
+	"file"		"particles/ge_ui_fx.pcf"
+	"file"		"particles/ge_gameplay_fx.pcf"
+}
+
+// GE:S PARTICLE EFFECTS
+
+// NAME					DESCRIPTION
+
+// WEAPONS (ge_muzzle_fx.pcf)
+// muzzle_ar33_flash
+// muzzle_pistol
+// muzzle_rcp90_flash
+// muzzle_shotgun
+// muzzle_revolver
+// muzzle_scattergun
+// muzzle_grenadelauncher
+// muzzle_smoke
+// muzzle_moonraker_flash
+// tracer_laser
+// tracer_standard
+
+// ENVIRONMENT (ge_environment_fx.pcf)
+// ge_drip				single drip effect, no collision, place particle entity at drip origin
+// ge_drip_ring_base			impact ripple template
+// ge_drip_ring_caves01			impact ripple caves specific
+// ge_drip_ring_caves02			impact ripple caves specific
+// ge_rain				base rain effect template
+// ge_rain_caves01			rain effect caves specific
+// ge_rain_caves02			rain effect caves specific
+// ge_snowdrift_runway01		runway snowdrift effect
+// WaterLeak_Pipe_1			water leaking from a pipe/ceiling
+
+// EXPLOSIONS (ge_explosion_fx.pcf)
+// Explosion_2_Debris_1/2/3		flecks of crap coming from explosions, has collision
+// Explosion_2_Fire			large flameball
+// Explosion_2_FireSmoke_2		pretty smoke
+// Explosion_2_FireSmoke_2_Tiny		tiny pretty smoke for tiny prop explosions
+// GES_Explosion_B			pretty rolling explosions
+// GES_Explosion_B_Tiny			tiny rolling explosions for explosing props like boxes, cameras, etc
+// GES_Explosion_<size>			rolling explosion children, various used/unused
+
+// IMPACT PARTICLES (ge_impact_fx.pcf)
+// ge_impact_add			full impact effect
+// ge_impact_embers			tiny embers at point of impact
+// ge_impact_smoke			smoke that rises up from point of impact
+// ge_impact_sparks			ge64 impact sparks (only on ceritan material types, excludes metals, includes softwer surfaces like concrete, wood, tile, etc)
+// ge_rocket_trail			rocket/grenade laucnher projectile smoke trail
+
+// GAMEPLAY EFFECTS (ge_gameplay_fx.pcf)
+// ge_baron_teleport + children		L&LD baron teleport effects
+
+// UI EFFECTS (ge_ui_fx.pcf)
+// voice_speech_bubble			animated speech bubble, will be implemented soon hopefully
+
+// WIP/UNFINISHED
+// muzzle_ar33_flash_thirdperson	orientation fix for the ar33 muzzleflash
+// tracer_laser_thirdperson		shorter version of laser tracer to prevent particle origin misplacement
+// ge_drip_slash_base			unfinished animated water impact effect
+// ge_rain_impact			unfinished drip impact effect
+// ge_rain_outer_mist			misty fog effect of water vapour/humidity from rain
+// ge_steam + children			custom steam effect, unusable due to looking terrible
+// WaterLeak_WaterDroplets_1/2		Jonathon's first attempt at particles; ugly water impact effect, do not use, use an HL2 water impact instead
+// Explosion_2_FireSmoke		old smoke effects from episode 2, not pretty
+// GES_Explosion			old ugly beta 3 explosions
+// GES_Explosion_B_Barrel		explosiong barrel explosion, explosion moves up
+// ge_bleedout + children		bleeding out effect for dead characters
+// ge_teleport_test			early bron teleport particle test
+// screenimpact_snow			early attempt at making screenspace effects, shortly before realizing it's not possible in the TF2 particle editor
