@@ -84,6 +84,8 @@
 	{
 		base.OnKilled();
 
+		PlaySoundFromScreen("death");
+
 		var coffin = new Coffin();
 		coffin.Position = Position + Vector3.Up * 30;
 		coffin.Rotation = Rotation;

@@ -2,9 +2,18 @@
 {
 	data = 
 	{
-		sounds = 
+		UI = true
+		Volume = 1
+		VolumeRandom = 0
+		Pitch = 1
+		PitchRandom = 0
+		Decibels = 60
+		Sounds = 
 		[
-			"sounds/player/death.vsnd",
+			resource:"sounds/player/death.vsnd",
 		]
+		SelectionMode = "Random"
+		MaximumDistance = 848.93066
+		MinimumDistance = 42.446533
 	}
 }
