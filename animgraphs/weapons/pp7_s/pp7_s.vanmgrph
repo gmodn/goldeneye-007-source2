@@ -74,7 +74,7 @@
 					m_networkMode = "ClientSimulate"
 					m_sNote = ""
 					m_tagSpans = [  ]
-					m_sequenceName = "deploy"
+					m_sequenceName = "draw"
 					m_playbackSpeed = 2.0
 					m_bLoop = false
 				}

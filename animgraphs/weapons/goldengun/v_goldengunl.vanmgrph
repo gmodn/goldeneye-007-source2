@@ -15,7 +15,7 @@
 				{
 					_class = "CSequenceAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ -752.0, -112.0 ]
+					m_vecPosition = [ -640.0, 96.0 ]
 					m_nNodeID = 
 					{
 						m_id = 679803827
@@ -23,7 +23,7 @@
 					m_networkMode = "ClientSimulate"
 					m_sNote = ""
 					m_tagSpans = [  ]
-					m_sequenceName = "ACT_IDLE"
+					m_sequenceName = "idle"
 					m_playbackSpeed = 1.0
 					m_bLoop = true
 				}
@@ -37,7 +37,7 @@
 				{
 					_class = "CSequenceAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ -784.0, 0.0 ]
+					m_vecPosition = [ -640.0, 48.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1038768245
@@ -45,7 +45,7 @@
 					m_networkMode = "ClientSimulate"
 					m_sNote = ""
 					m_tagSpans = [  ]
-					m_sequenceName = "ACT_RUN"
+					m_sequenceName = "draw"
 					m_playbackSpeed = 1.0
 					m_bLoop = true
 				}
@@ -442,7 +442,7 @@
 				{
 					_class = "CSequenceAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ -800.0, 176.0 ]
+					m_vecPosition = [ -640.0, -48.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1689805613
@@ -450,7 +450,7 @@
 					m_networkMode = "ClientSimulate"
 					m_sNote = ""
 					m_tagSpans = [  ]
-					m_sequenceName = "ACT_WALK_CROUCH"
+					m_sequenceName = "reload"
 					m_playbackSpeed = 1.0
 					m_bLoop = true
 				}
@@ -464,7 +464,7 @@
 				{
 					_class = "CSequenceAnimNode"
 					m_sName = "Unnamed"
-					m_vecPosition = [ -784.0, 96.0 ]
+					m_vecPosition = [ -640.0, 0.0 ]
 					m_nNodeID = 
 					{
 						m_id = 1775646489
@@ -472,7 +472,7 @@
 					m_networkMode = "ClientSimulate"
 					m_sNote = ""
 					m_tagSpans = [  ]
-					m_sequenceName = "ACT_WALK"
+					m_sequenceName = "fire1"
 					m_playbackSpeed = 1.0
 					m_bLoop = true
 				}

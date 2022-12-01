@@ -1,4 +1,4 @@
-<!-- KV3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
 {
 	rootNode = 
 	{
@@ -13,14 +13,36 @@
 						_class = "RenderMeshFile"
 						name = "v_pp7_silenced"
 						filename = "models/weapons/pp7/v_pp7_s/v_pp7_silenced.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 					{
 						_class = "RenderMeshFile"
 						name = "v_pp7_hand"
 						filename = "models/weapons/pp7/v_pp7_s/v_pp7_hand.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
-					}
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
 				]
 			},
 			{
@@ -29,22 +51,170 @@
 				[
 					{
 						_class = "EmptyAnim"
+						name = "ref"
 						activity_name = ""
 						activity_weight = 1
-						anim_markup_ordered = false
-						delta = false
-						disable_compression = false
+						weight_list_name = ""
 						fade_in_time = 0.2
 						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
 						frame_count = 1
 						frame_rate = 30
-						hidden = false
-						looping = false
-						name = "ref"
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						activity_name = ""
+						activity_weight = 1
 						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
 						worldSpace = false
-					}
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pp7/v_pp7_s_anims/draw.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "dryfire"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pp7/v_pp7_s_anims/dryfire.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "dryidle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pp7/v_pp7_s_anims/dryidle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire1"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pp7/v_pp7_s_anims/fire1.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pp7/v_pp7_s_anims/holster.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pp7/v_pp7_s_anims/idle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pp7/v_pp7_s_anims/reload.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
 				]
+				default_root_bone_name = ""
 			},
 			{
 				_class = "BodyGroupList"
@@ -52,40 +222,34 @@
 				[
 					{
 						_class = "BodyGroup"
+						name = "studio"
 						children = 
 						[
 							{
 								_class = "BodyGroupChoice"
 								meshes = 
 								[
-									"v_pp7_silenced"
+									"v_pp7_silenced",
 								]
-							}
+							},
 						]
 						hidden_in_tools = false
-						name = "studio"
 					},
 					{
 						_class = "BodyGroup"
+						name = "studio1"
 						children = 
 						[
 							{
 								_class = "BodyGroupChoice"
 								meshes = 
 								[
-									"v_pp7_hand"
+									"v_pp7_hand",
 								]
-							}
+							},
 						]
 						hidden_in_tools = false
-						name = "studio"
-					}
-				]
-			},
-			{
-				_class = "JiggleBoneList"
-				children = 
-				[
+					},
 				]
 			},
 			{
@@ -95,19 +259,20 @@
 					{
 						_class = "DefaultMaterialGroup"
 						name = "skin_0"
-						remaps = 
-						[
-						]
-					}
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
 				]
 			},
 			{
 				_class = "BoneMarkupList"
 				bone_cull_type = "None"
-			}
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
 		anim_graph_name = ""
+		base_model_name = ""
 	}
 }
