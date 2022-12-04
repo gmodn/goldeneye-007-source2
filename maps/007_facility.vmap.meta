@@ -1,0 +1,8 @@
+{
+  "cloud_packages": [],
+  "game_packages": [
+    "facepunch.boomer",
+    "facepunch.gunfight"
+  ],
+  "addon_packages": []
+}
